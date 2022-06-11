@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js"></script>
+
+</head>
+
+
+<body style="background-image: url('img/background.jpg');">
+    <div class="wholeContainer">
+        <div class="Container">
+            <a href="homepage.html"><img src="img/logo.png"></a>
+            <h1>College Space</h1>
+        </div>
+        <div class="lowerContainer">
+            <form action="login.php" method="POST" onsubmit="return validate()">
+                <div class="login">
+                    <div class="content">
+                        <div class="username">
+                            <input type="text" name="username" id="username" placeholder="Username">
+                        </div>
+                        <div class="password">
+                            <input type="password" name="password" id="password" placeholder="Password">
+                        </div>
+                        <div class="submit-button">
+                            <input type="submit" value="Submit" name="submit">
+                        </div>
+                        <div class="signup-button">
+                            <a href="signup.php">Sign Up</a>
+                        </div>
+                        <div class="back-button">
+                            <a href="homepage.html">Back</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

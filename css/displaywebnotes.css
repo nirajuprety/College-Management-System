@@ -1,0 +1,8 @@
+.displayDiv {
+    width: 90%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5%;
+}

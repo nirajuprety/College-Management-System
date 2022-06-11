@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-repeat: no-repeat;
+}
+
+.container {
+    margin-top: 12.5%;
+    display: grid;
+    grid-template-columns: 30% 50%;
+}
+
+.cslogo {
+    width: 90%;
+}
+
+.cslogo img {
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 30%;
+    align-content: center;
+}
+
+body h1 {
+    padding-top: 15%;
+    padding-left: 25%;
+    color: white;
+}
+
+body h1 a:hover {
+    transform: scale(1.1);
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+h1 a:hover {
+    color: skyblue;
+    font-size: 1.5em;
+    transition: 0.8s;
+}
+
+body {
+    /* overflow: hidden; */
+    width: 100%;
+    overflow-x: hidden;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    top: 100%;
+    position: relative;
+    background-color: #0c2140;
+    padding: 2.5%;
+    /* align-items:  */
+    /* order: 3; */
+    color: white;
+    overflow: unset;
+}
+
+.allLinks li {
+    transition: 0.5s;
+}
+
+.allLinks li:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.allLinks li {
+    list-style: none;
+}
+
+.allLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+}
+
+.allLinks a:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.footer-leftContainer {
+    flex: 30%;
+    bottom: 0;
+}
+
+.icons {
+    font-size: 1.3em;
+}
+
+.icons i {
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+
+.icons i:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.footer-leftContainer img {
+    width: 30%;
+    margin-left: 10%;
+}
+
+.footer-middleContainer {
+    flex: 30%;
+}
+
+.footer-leftContainer {
+    flex: 30%;
+}

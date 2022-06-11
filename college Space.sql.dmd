@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="college Space.sql" id="467CC732-BEB7-4554-05C8-61B1F6670DF8" version="3.5">
+<createdBy>hp</createdBy>
+<createdTime>2021-12-19 15:03:13 UTC</createdTime>
+<ownerDesignName>college Space.sql</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>467CC732-BEB7-4554-05C8-61B1F6670DF8</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="85789589-7E7C-F678-B5FF-1169A667D253">
+<designStoragePath>D:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
